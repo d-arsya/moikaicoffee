@@ -13,11 +13,11 @@ export default function Gallery() {
       >
         FOLLOW US ON INSTAGRAM
       </Link>
-      <p className="text-center text-sm italic font-medium">
+      <p className="text-center text-sm md:text-lg italic font-medium">
         "Jadilah bagian dari perjalanan kami, abadikan kenangan manis di tiap
         sudut moikai"
       </p>
-      <div className="grid grid-cols-2 gap-4 my-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-12 md:px-32">
         <Image src={Foto} alt="a" className="rounded-md" />
         <Image src={Foto} alt="a" className="rounded-md" />
         <Image src={Foto} alt="a" className="rounded-md" />
