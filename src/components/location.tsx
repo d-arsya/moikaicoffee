@@ -1,6 +1,7 @@
 import { Clock, MapPin, Navigation } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
-
+import Matahari from "../../public/flower.png";
 export default function Location() {
   return (
     <section>
@@ -58,7 +59,17 @@ export default function Location() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col-reverse md:grid md:grid-cols-2 md:px-32 gap-6 md:gap-12 bg-primary px-3 text-black py-24">
+      <div className="relative overflow-hidden flex flex-col-reverse md:grid md:grid-cols-2 md:px-32 gap-6 md:gap-12 bg-primary px-3 text-black py-24">
+        <Image
+          src={Matahari}
+          alt="sun"
+          className="absolute right-0 top-0 -mt-32 -mr-32"
+        />
+        <Image
+          src={Matahari}
+          alt="sun"
+          className="absolute left-0 bottom-0 -mb-32 -ml-32"
+        />
         <div>
           <h1 className="font-extrabold text-3xl md:text-6xl md:my-12 my-6">
             02

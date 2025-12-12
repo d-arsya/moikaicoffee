@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Foto from "../../public/1.jpg";
+import Matahari from "../../public/sun.png";
 import Link from "next/link";
+
 export default function Menu() {
   const menusCdt = [
     {
@@ -97,7 +99,17 @@ export default function Menu() {
     },
   ];
   return (
-    <section className="bg-primary py-6">
+    <section className="relative bg-primary py-6">
+      <Image
+        src={Matahari}
+        alt="sun"
+        className="absolute right-0 top-0 -mt-32 -mr-32"
+      />
+      <Image
+        src={Matahari}
+        alt="sun"
+        className="absolute left-0 bottom-0 -mb-32 -ml-32"
+      />
       <div className="p-6 md:px-32 justify-center flex flex-col">
         <h1 className="text-black font-bold tracking-widest md:text-3xl flex items-center gap-x-3 my-6 m-auto">
           <span className="h-0.5 bg-white w-10 md:w-30 inline-block"></span>

@@ -1,13 +1,26 @@
+import Image from "next/image";
+import Pola from "../../public/pattern-2.png";
+import Foto from "../../public/1.jpg";
 export default function Advertisement() {
   return (
-    <section className="bg-black justify-center w-full flex items-center p-3 py-24">
-      {/* <Image src={PromoMobile} alt="" /> */}
+    <section className="relative bg-black justify-center w-full flex items-center p-3 py-24">
+      <Image
+        src={Pola}
+        alt="pola"
+        className="absolute top-0 left-0 w-full h-full"
+      />
       <div className="w-full md:w-5/6 rounded-3xl md:h-140 flex flex-col md:flex-row-reverse overflow-hidden shadow-2xl bg-white">
         <div className="relative bg-gray-900 text-white p-6 pb-24 md:pb-3 md:w-1/2 flex items-end">
           <div
             className="absolute inset-0 bg-cover bg-center opacity-70"
-            style={{ backgroundImage: "url('/1.jpg')" }}
-          ></div>
+            // style={{ backgroundImage: "url('/1.jpg')" }}
+          >
+            <Image
+              src={Foto}
+              alt="foto"
+              className="w-full h-full object-cover"
+            />
+          </div>
           <div className="relative z-10">
             <h1 className="text-4xl font-extrabold tracking-tight mt-32 mb-2 md:text-7xl">
               NGOPI PAGI

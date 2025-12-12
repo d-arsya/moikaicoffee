@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Foto from "../../public/1.jpg";
+import Pola from "../../public/pattern-1.png";
 export default function About() {
   return (
     <>
-      <section className="bg-black md:hidden">
+      <section className="bg-black md:hidden relative">
         <div className="px-6 py-24">
           <h1 className="text-primary font-bold tracking-widest flex items-center gap-x-3">
             <span className="h-0.5 bg-white w-10 inline-block"></span>
@@ -22,10 +23,20 @@ export default function About() {
             kembali.
           </p>
         </div>
-        <Image src={Foto} alt="" />
+        <Image src={Foto} alt="" className="relative z-1" />
+        <Image
+          src={Pola}
+          alt="pola"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        />
       </section>
-      <section className="bg-black hidden md:flex flex-row items-center">
-        <Image src={Foto} alt="" />
+      <section className="relative bg-black hidden md:flex flex-row items-center">
+        <Image
+          src={Pola}
+          alt="pola"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        />
+        <Image src={Foto} alt="" className="z-1" />
         <div className="py-24 flex flex-row">
           <h1 className="text-primary font-bold tracking-widest flex flex-row items-center gap-x-1 rotate-270">
             <span className="h-0.5 bg-white w-10 inline-block"></span>

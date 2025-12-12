@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import Foto from "../../public/1.jpg";
+import Pola from "../../public/pattern-3.png";
 export default function Gallery() {
   return (
-    <section className="p-3 pt-24 pb-12">
+    <section className="relative p-3 pt-24 pb-12">
       <h1 className="font-bold text-white text-center text-3xl">
         @moikaicoffee
       </h1>
@@ -27,6 +28,12 @@ export default function Gallery() {
         <Image src={Foto} alt="a" className="rounded-md" />
         <Image src={Foto} alt="a" className="rounded-md" />
       </div>
+
+      <Image
+        src={Pola}
+        alt="pola"
+        className="absolute top-0 left-0 w-full h-full -z-1 object-cover"
+      />
     </section>
   );
 }
