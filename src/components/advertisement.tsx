@@ -7,7 +7,7 @@ export default function Advertisement() {
       <Image
         src={Pola}
         alt="pola"
-        className="absolute top-0 left-0 w-full h-full"
+        className="absolute top-0 left-0 w-full h-full object-cover"
       />
       <div className="w-full md:w-5/6 rounded-3xl md:h-140 flex flex-col md:flex-row-reverse overflow-hidden shadow-2xl bg-white">
         <div className="relative bg-gray-900 text-white p-6 pb-24 md:pb-3 md:w-1/2 flex items-end">
