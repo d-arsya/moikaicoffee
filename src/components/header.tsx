@@ -1,13 +1,25 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import LogoMoikai from "../../public/logo-square.jpg";
 import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (!open) return;
 
+    const handleScroll = () => {
+      setOpen(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [open]);
   return (
     <header className="w-full border-b">
       <div className="mx-auto flex items-center justify-between md:pr-12">
@@ -55,7 +67,7 @@ export default function Header() {
 
       {/* Mobile navigation */}
       {open && (
-        <nav className="md:hidden fixed top-16 left-0 w-full px-4 pb-4 space-y-2 text-sm font-medium">
+        <nav className="md:hidden fixed top-16 left-0 w-full px-4 pb-4 space-y-2 text-sm font-medium z-100">
           <a href="#about" className="block py-2 border-b">
             About
           </a>

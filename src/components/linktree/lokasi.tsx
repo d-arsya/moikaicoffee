@@ -13,14 +13,12 @@ export default function Lokasi() {
       ></iframe>
       <Link
         href={"https://maps.app.goo.gl/P1nqV8QxZNYhZCgc7"}
-        className="bg-primary text-black text-sm flex gap-x-2 items-center justify-center w-full p-2 rounded-md mt-2 font-bold tracking-widest"
+        className="bg-primary text-black text-sm flex items-center justify-between w-full p-2 rounded-md mt-2 font-bold tracking-widest"
       >
-        <div className="flex flex-row items-center gap-x-2">
-          <h1 className="font-bold text-md">Cabang CDT</h1>
-          <h1 className="bg-black text-primary p-2 rounded-md text-xs font-extrabold w-max tracking-widest">
-            FOOD & DRINKS
-          </h1>
-        </div>
+        <h1 className="font-bold text-md">Cabang CDT</h1>
+        <h1 className="bg-black text-primary p-2 rounded-md text-xs font-extrabold w-max tracking-widest">
+          FOOD & DRINKS
+        </h1>
       </Link>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.885307189242!2d110.37803180000002!3d-7.805854299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57f414232bb5%3A0x570e82abd98c909d!2sMOIKAI%20Coffee%20Taman%20Siswa!5e1!3m2!1sid!2sid!4v1765194083660!5m2!1sid!2sid"
@@ -31,7 +29,7 @@ export default function Lokasi() {
       ></iframe>
       <Link
         href={"https://maps.app.goo.gl/57H7io4MLcwriVav5"}
-        className="bg-primary text-black text-sm flex gap-x-2 items-center justify-center w-full p-2 rounded-md mt-2 font-bold tracking-widest"
+        className="bg-primary text-black text-sm flex items-center justify-between w-full p-2 rounded-md mt-2 font-bold tracking-widest"
       >
         <h1 className="font-bold text-md">Cabang Tamsis</h1>
         <h1 className="bg-black text-primary p-2 rounded-md text-xs font-extrabold w-max tracking-widest">
