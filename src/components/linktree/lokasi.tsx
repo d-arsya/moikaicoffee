@@ -17,7 +17,7 @@ export default function Lokasi() {
       >
         <Navigation />{" "}
         <div className="flex flex-row items-center gap-x-2">
-          <h1 className="font-bold text-lg">Cabang CDT</h1>
+          <h1 className="font-bold text-md">Cabang CDT</h1>
           <h1 className="bg-black text-primary p-2 rounded-md text-xs font-extrabold w-max tracking-widest">
             FOOD & DRINKS
           </h1>
@@ -35,7 +35,7 @@ export default function Lokasi() {
         className="bg-primary text-black text-sm flex gap-x-2 items-center justify-center w-full p-2 rounded-md mt-2 font-bold tracking-widest"
       >
         <Navigation />
-        <h1 className="font-bold text-lg">Cabang Tamsis</h1>
+        <h1 className="font-bold text-md">Cabang Tamsis</h1>
         <h1 className="bg-black text-primary p-2 rounded-md text-xs font-extrabold w-max tracking-widest">
           DRINKS ONLY
         </h1>
