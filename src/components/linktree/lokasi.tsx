@@ -12,7 +12,7 @@ export default function Lokasi() {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <Link
-        href={""}
+        href={"https://maps.app.goo.gl/P1nqV8QxZNYhZCgc7"}
         className="bg-primary text-black text-sm flex gap-x-2 items-center justify-center w-full p-2 rounded-md mt-2 font-bold tracking-widest"
       >
         <div className="flex flex-row items-center gap-x-2">
@@ -30,7 +30,7 @@ export default function Lokasi() {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <Link
-        href={""}
+        href={"https://maps.app.goo.gl/57H7io4MLcwriVav5"}
         className="bg-primary text-black text-sm flex gap-x-2 items-center justify-center w-full p-2 rounded-md mt-2 font-bold tracking-widest"
       >
         <h1 className="font-bold text-md">Cabang Tamsis</h1>

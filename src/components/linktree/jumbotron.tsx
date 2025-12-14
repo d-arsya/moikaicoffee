@@ -38,7 +38,7 @@ export default function Jumbotron() {
           <Link href={"https://instagram.com/moikaicoffee"}>
             <FaInstagram size={32} />
           </Link>
-          <Link href={""}>
+          <Link href={"https://wa.me/6282329545244"}>
             <FaWhatsapp size={30} />
           </Link>
           <Link href={"https://tiktok.com/@moikaicoffee"}>

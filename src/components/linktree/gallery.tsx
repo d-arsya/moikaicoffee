@@ -7,10 +7,10 @@ export default function Gallery() {
   );
 
   return (
-    <section className="px-4">
+    <section className="">
       <h1 className="text-center font-semibold text-lg mb-4">Ambience</h1>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-3">
         {photos.map((photo, index) => (
           <div key={index} className="overflow-hidden rounded-lg">
             <Image
