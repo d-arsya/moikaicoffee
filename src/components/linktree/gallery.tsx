@@ -1,11 +1,13 @@
 import Image from "next/image";
-import Foto from "../../../public/1.jpg";
 
 export default function Gallery() {
-  const photos = [Foto, Foto, Foto, Foto, Foto, Foto]; // duplicate for demo
+  const photos = Array.from(
+    { length: 11 },
+    (_, i) => `/photos/photos-${i + 1}.jpg`
+  );
 
   return (
-    <section className="">
+    <section className="px-4">
       <h1 className="text-center font-semibold text-lg mb-4">Ambience</h1>
 
       <div className="grid grid-cols-2 gap-2">
@@ -13,8 +15,10 @@ export default function Gallery() {
           <div key={index} className="overflow-hidden rounded-lg">
             <Image
               src={photo}
-              alt="Moikai ambience"
-              className="object-cover aspect-square"
+              alt={`Moikai ambience ${index + 1}`}
+              width={200}
+              height={500}
+              className="object-cover aspect-3/4"
             />
           </div>
         ))}

@@ -3,6 +3,7 @@ import Foto from "../../../public/front-jumbotron.jpg";
 import Logo from "../../../public/logo-square.jpg";
 import Link from "next/link";
 import { Globe, Instagram, Music2, Phone } from "lucide-react";
+import { FaGlobe, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 export default function Jumbotron() {
   return (
     <header className="relative w-full overflow-hidden rounded-t-lg">
@@ -35,16 +36,16 @@ export default function Jumbotron() {
 
         <div className="mt-3 flex flex-row gap-x-3">
           <Link href={"https://instagram.com/moikaicoffee"}>
-            <Instagram />
+            <FaInstagram size={32} />
           </Link>
           <Link href={""}>
-            <Phone />
+            <FaWhatsapp size={30} />
           </Link>
           <Link href={"https://tiktok.com/@moikaicoffee"}>
-            <Music2 />
+            <FaTiktok size={28} />
           </Link>
           <Link href={"/landingpage"}>
-            <Globe />
+            <FaGlobe size={28} />
           </Link>
         </div>
       </div>
