@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Foto from "../../../public/1.jpg";
+import Foto from "../../../public/pour.jpg";
 export default function Promo() {
   return (
     <>
