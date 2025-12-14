@@ -67,7 +67,7 @@ export default function Header() {
 
       {/* Mobile navigation */}
       {open && (
-        <nav className="md:hidden fixed top-16 left-0 w-full px-4 pb-4 space-y-2 text-sm font-medium z-100">
+        <nav className="md:hidden fixed top-16 left-0 w-screen px-4 pb-4 space-y-2 text-sm font-medium z-100">
           <a href="#about" className="block py-2 border-b">
             About
           </a>

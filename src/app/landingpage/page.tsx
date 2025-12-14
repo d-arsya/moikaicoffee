@@ -9,7 +9,7 @@ import Menu from "@/components/menu";
 
 export default function Landingpage() {
   return (
-    <>
+    <div className="w-screen overflow-x-hidden">
       <Header />
       <Jumbotron />
       <About />
@@ -18,6 +18,6 @@ export default function Landingpage() {
       <Location />
       <Gallery />
       <Footer />
-    </>
+    </div>
   );
 }
