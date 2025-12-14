@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Pola from "../../public/pattern-2.png";
-import Foto from "../../public/1.jpg";
+import Foto from "../../public/pour.jpg";
 export default function Advertisement() {
   return (
-    <section className="relative bg-black justify-center w-full flex items-center p-3 py-24">
+    <section
+      id="promo"
+      className="relative bg-black justify-center w-full flex items-center p-3 py-24"
+    >
       <Image
         src={Pola}
         alt="pola"
@@ -11,10 +14,7 @@ export default function Advertisement() {
       />
       <div className="w-full md:w-5/6 rounded-3xl md:h-140 flex flex-col md:flex-row-reverse overflow-hidden shadow-2xl bg-white">
         <div className="relative bg-gray-900 text-white p-6 pb-24 md:pb-3 md:w-1/2 flex items-end">
-          <div
-            className="absolute inset-0 bg-cover bg-center opacity-70"
-            // style={{ backgroundImage: "url('/1.jpg')" }}
-          >
+          <div className="absolute inset-0 bg-cover bg-center opacity-70">
             <Image
               src={Foto}
               alt="foto"
@@ -69,7 +69,7 @@ export default function Advertisement() {
             <span className="text-white">MORNING</span> COFFEE PROMO
           </h2>
 
-          <p className="font-medium mb-3">07:00 - 22:00 WIB</p>
+          <p className="font-medium mb-3">07:00 - 10:00 WIB</p>
           <p className="text-2xl md:text-4xl font-bold">15K</p>
           <h1 className="ml-2 text-sm md:hidden">
             • Americano • Latte • Cappuccino

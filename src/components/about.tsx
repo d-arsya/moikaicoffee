@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Foto from "../../public/1.jpg";
+import Foto from "../../public/front.jpg";
 import Pola from "../../public/pattern-1.png";
 export default function About() {
   return (
-    <>
+    <div id="about">
       <section className="bg-black sm:hidden relative">
         <div className="px-6 py-24">
           <h1 className="text-primary font-bold tracking-widest flex items-center gap-x-3">
@@ -59,6 +59,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

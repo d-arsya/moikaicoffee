@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import LogoMoikai from "../../public/logo-square.jpg";
+import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -11,13 +12,13 @@ export default function Header() {
     <header className="w-full border-b">
       <div className="mx-auto flex items-center justify-between md:pr-12">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <Link href={"/"} className="flex items-center gap-2">
           <Image
             src={LogoMoikai}
             alt="Logo Moikai Coffee"
             className="w-16 md:w-20"
           />
-        </div>
+        </Link>
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex gap-8 text-sm font-medium">

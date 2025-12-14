@@ -4,7 +4,7 @@ import Link from "next/link";
 import Matahari from "../../public/flower.png";
 export default function Location() {
   return (
-    <section>
+    <section id="locations">
       <div className="bg-black px-3 pb-6 md:pb-24 pt-24">
         <h1 className="text-primary font-bold tracking-widest flex md:justify-center items-center gap-x-3 md:text-3xl">
           <span className="h-0.5 bg-white w-10 md:w-20 inline-block"></span>
@@ -51,7 +51,7 @@ export default function Location() {
               </span>
             </span>
             <Link
-              href={""}
+              href={"https://maps.app.goo.gl/P1nqV8QxZNYhZCgc7"}
               className="bg-primary text-black text-sm flex gap-x-2 justify-center w-full p-3 rounded-md mt-12 font-bold tracking-widest"
             >
               <Navigation /> GET DIRECTIONS
@@ -98,7 +98,7 @@ export default function Location() {
             </span>
           </span>
           <Link
-            href={""}
+            href={"https://maps.app.goo.gl/57H7io4MLcwriVav5"}
             className="bg-black text-primary text-sm flex gap-x-2 justify-center w-full p-3 rounded-md mt-12 font-bold tracking-widest"
           >
             <Navigation /> GET DIRECTIONS

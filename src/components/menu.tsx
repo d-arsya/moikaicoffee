@@ -6,100 +6,61 @@ import Link from "next/link";
 export default function Menu() {
   const menusCdt = [
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Rice Bowl",
+      description: "Menu nasi praktis dengan pilihan lauk favorit.",
+      picture: "/menus/menus-1.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Nashville",
+      description: "Ayam goreng pedas ala Nashville yang juicy.",
+      picture: "/menus/menus-2.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Nasi Goreng Kecombrang",
+      description: "Nasi goreng dengan aroma kecombrang yang khas.",
+      picture: "/menus/menus-3.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Kopi",
+      description: "Signature coffee Moikai untuk menemani harimu.",
+      picture: "/menus/menus-4.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Dawet Latte",
+      description: "Perpaduan unik espresso dan dawet yang creamy.",
+      picture: "/menus/menus-5.jpg",
     },
   ];
   const menusTamsis = [
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Rice Bowl",
+      description: "Menu nasi praktis dengan pilihan lauk favorit.",
+      picture: "/menus/menus-1.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Nashville",
+      description: "Ayam goreng pedas ala Nashville yang juicy.",
+      picture: "/menus/menus-2.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Nasi Goreng Kecombrang",
+      description: "Nasi goreng dengan aroma kecombrang yang khas.",
+      picture: "/menus/menus-3.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Kopi",
+      description: "Signature coffee Moikai untuk menemani harimu.",
+      picture: "/menus/menus-4.jpg",
     },
     {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
-    },
-    {
-      title: "COFFEE BASED",
-      description: "Lorem ipsum",
-      picture: Foto,
+      title: "Dawet Latte",
+      description: "Perpaduan unik espresso dan dawet yang creamy.",
+      picture: "/menus/menus-5.jpg",
     },
   ];
+
   return (
-    <section className="relative bg-primary py-6">
+    <section id="menu" className="relative bg-primary py-6">
       <Image
         src={Matahari}
         alt="sun"
@@ -171,7 +132,7 @@ export default function Menu() {
         ))}
       </div>
       <Link
-        href={""}
+        href={"/menu.pdf"}
         className="bg-black text-primary rounded-md p-2 w-max m-auto block"
       >
         Lihat Semua Menu Kami

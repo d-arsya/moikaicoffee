@@ -18,6 +18,9 @@ body {
   color: var(--foreground);
   font-family: "Inter", sans-serif;
 }
+* {
+  scroll-behavior: smooth;
+}
 *::-webkit-scrollbar {
   display: none;
 }

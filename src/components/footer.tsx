@@ -2,38 +2,51 @@ import { Clock, Facebook, Instagram, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import LogoMoikai from "../../public/logo-square.jpg";
+import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-primary p-4 md:py-12 md:px-24 text-black text-sm font-light">
       <div className="flex flex-col md:flex-row gap-x-24 gap-y-6 md:gap-y-0">
         <div className="block">
-          <Image
-            alt="Logo Moikai Coffee"
-            src={LogoMoikai}
-            className="w-1/4 md:w-32 border border-1 border-black rounded-md"
-          />
-          <h1 className="font-bold text-md mt-6 mb-3">Informasi Kontak</h1>
+          <Link href={"/"}>
+            <Image
+              alt="Logo Moikai Coffee"
+              src={LogoMoikai}
+              className="w-1/4 md:w-32 border border-1 border-black rounded-md"
+            />
+          </Link>
+          <h1 id="contact" className="font-bold text-md mt-6 mb-3">
+            Informasi Kontak
+          </h1>
           <div className="flex flex-row gap-x-3 mb-6">
-            <Link href={""} className="bg-black rounded-md p-2 flex w-max">
-              <Instagram size={16} className="text-primary" />
+            <Link
+              href={"https://instagram.com/moikaicoffee"}
+              className="bg-black rounded-md p-2 flex w-max"
+            >
+              <FaInstagram size={16} className="text-primary" />
             </Link>
-            <Link href={""} className="bg-black rounded-md p-2 flex w-max">
-              <Facebook size={16} className="text-primary" />
+            <Link
+              href={"https://tiktok.com/@moikaicoffee"}
+              className="bg-black rounded-md p-2 flex w-max"
+            >
+              <FaTiktok size={16} className="text-primary" />
             </Link>
-            <Link href={""} className="bg-black rounded-md p-2 flex w-max">
-              <Phone size={16} className="text-primary" />
+            <Link
+              href={"https://wa.me/6282329545244"}
+              className="bg-black rounded-md p-2 flex w-max"
+            >
+              <FaWhatsapp size={16} className="text-primary" />
             </Link>
           </div>
         </div>
         <div>
           <h1 className="font-bold text-lg mb-3">Tautan Cepat</h1>
           <div className="flex flex-col gap-y-1.5">
-            <Link href={""}>Tentang Kami</Link>
-            <Link href={""}>Menu Moikai</Link>
-            <Link href={""}>Penawaran Spesial Untuk Anda</Link>
-            <Link href={""}>Temukan Lokasi Moikai</Link>
-            <Link href={""}>Cari Tahu Lebih Banyak Tentang Kami</Link>
+            <Link href={"#about"}>Tentang Kami</Link>
+            <Link href={"#menu"}>Menu Moikai</Link>
+            <Link href={"#promo"}>Penawaran Spesial Untuk Anda</Link>
+            <Link href={"#locations"}>Temukan Lokasi Moikai</Link>
           </div>
         </div>
         <div className="flex flex-col gap-y-6 mb-12 col-span-2">
@@ -41,9 +54,12 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row gap-x-24 gap-y-3 md:gap-y-0">
             <div className="flex flex-col gap-y-3">
               <h1 className="font-bold text-md">Cabang CDT</h1>
-              <div className="flex flex-row gap-2">
+              <Link
+                href={"https://maps.app.goo.gl/P1nqV8QxZNYhZCgc7"}
+                className="flex flex-row gap-2"
+              >
                 <MapPin size={20} /> Jl. Cik Di Tiro No.27 Terban YK
-              </div>
+              </Link>
               <div className="flex flex-row gap-2">
                 <Clock size={20} />
                 <span>
@@ -54,9 +70,12 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-y-3">
               <h1 className="font-bold text-md">Cabang Tamsis</h1>
-              <div className="flex flex-row gap-2">
+              <Link
+                href={"https://maps.app.goo.gl/57H7io4MLcwriVav5"}
+                className="flex flex-row gap-2"
+              >
                 <MapPin size={20} /> Jl. Taman Siswa No.27C Wirogunan YK
-              </div>
+              </Link>
               <div className="flex flex-row gap-2">
                 <Clock size={20} />
                 <span>
