@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   const photos = Array.from(
-    { length: 11 },
+    { length: 18 },
     (_, i) => `/photos/photos-${i + 1}.jpg`
   );
 

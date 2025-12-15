@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Foto from "../../../public/front-jumbotron.jpg";
+import Foto from "../../../public/new-header.jpg";
 import Logo from "../../../public/logo-square.jpg";
 import Link from "next/link";
 import { Globe, Instagram, Music2, Phone } from "lucide-react";
