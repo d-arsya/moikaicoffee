@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Moikai Coffee - Premium Coffee Shop Digital Experience
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19.0-blue?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-First, run the development server:
+A high-performance, modern web application for **Moikai Coffee**, designed to provide a premium digital experience for coffee enthusiasts. This project showcases a sleek, responsive landing page and a specialized "Linktree-style" mobile-first portal for social media integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Project Highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with the latest cutting-edge technologies (Next.js 16 & Tailwind CSS 4), this application prioritizes speed, SEO, and a premium aesthetic consistent with the Moikai Coffee brand.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dual-Purpose Design**: Features both a comprehensive landing page and a dedicated mobile-first link portal.
+- **Dynamic Menu Discovery**: Interactive menu components showcasing premium coffee offerings.
+- **Micro-interactions**: Smooth transitions and modern UI elements powered by Lucide React and React Icons.
+- **Mobile Optimized**: Designed with a "mobile-first" approach to cater to customers accessing via social media platforms.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Components
 
-## Learn More
+- **Landing Page**: Integrated sections for Jumbotron, About Us, Promotions (Advertisement), and Gallery.
+- **Digital Menu**: Interactive display of coffee types, brewing methods, and pricing.
+- **Location & Contact**: Integrated mapping and direct contact features for easy customer navigation.
+- **Linktree Portal**: A specialized mobile utility section for quick access to Contact, Gallery, Promo, and Location from Instagram/TikTok bios.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: Next.js 16 (App Router)
+- **Library**: React 19
+- **Styling**: Tailwind CSS 4.0 (PostCSS)
+- **Icons**: Lucide React & React Icons
+- **Language**: TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Developer & Maintainer
 
-## Deploy on Vercel
+**Kamaluddin Arsyad Fadllillah**
+*Fullstack Web Developer | UGM Software Engineering*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📧 [arsyadkamaluddin@gmail.com](mailto:arsyadkamaluddin@gmail.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/arsyadkamaluddin)
+- 🌐 [Portfolio/Socials](https://disyfa.space)
+- 📞 [+62 896-3605-5420](https://wa.me/6289636055420)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Professional Project Reference - 2025/2026
