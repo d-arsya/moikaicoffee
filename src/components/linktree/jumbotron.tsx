@@ -2,7 +2,7 @@ import Image from "next/image";
 import Foto from "../../../public/new-header.jpg";
 import Logo from "../../../public/logo-square.jpg";
 import Link from "next/link";
-import { Globe, Instagram, Music2, Phone } from "lucide-react";
+// unused lucide-react icons removed
 import { FaGlobe, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 export default function Jumbotron() {
   return (

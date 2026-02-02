@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Foto from "../../public/1.jpg";
+// unused image import removed
 import Matahari from "../../public/sun.png";
 import Link from "next/link";
 
@@ -8,54 +8,54 @@ export default function Menu() {
     {
       title: "Rice Bowl",
       description: "Menu nasi praktis dengan pilihan lauk favorit.",
-      picture: "/menus/menus-1.jpg",
+      picture: "/menus/menu-rice-bowl.jpg",
     },
     {
       title: "Nashville",
       description: "Ayam goreng pedas ala Nashville yang juicy.",
-      picture: "/menus/menus-2.jpg",
+      picture: "/menus/menu-nashville-chicken.jpg",
     },
     {
       title: "Nasi Goreng Kecombrang",
       description: "Nasi goreng dengan aroma kecombrang yang khas.",
-      picture: "/menus/menus-3.jpg",
+      picture: "/menus/menu-nasi-goreng-kecombrang.jpg",
     },
     {
       title: "Kopi",
       description: "Signature coffee Moikai untuk menemani harimu.",
-      picture: "/menus/menus-4.jpg",
+      picture: "/menus/menu-signature-coffee.jpg",
     },
     {
       title: "Dawet Latte",
       description: "Perpaduan unik espresso dan dawet yang creamy.",
-      picture: "/menus/menus-5.jpg",
+      picture: "/menus/menu-dawet-latte.jpg",
     },
   ];
   const menusTamsis = [
     {
       title: "Rice Bowl",
       description: "Menu nasi praktis dengan pilihan lauk favorit.",
-      picture: "/menus/menus-1.jpg",
+      picture: "/menus/menu-rice-bowl.jpg",
     },
     {
       title: "Nashville",
       description: "Ayam goreng pedas ala Nashville yang juicy.",
-      picture: "/menus/menus-2.jpg",
+      picture: "/menus/menu-nashville-chicken.jpg",
     },
     {
       title: "Nasi Goreng Kecombrang",
       description: "Nasi goreng dengan aroma kecombrang yang khas.",
-      picture: "/menus/menus-3.jpg",
+      picture: "/menus/menu-nasi-goreng-kecombrang.jpg",
     },
     {
       title: "Kopi",
       description: "Signature coffee Moikai untuk menemani harimu.",
-      picture: "/menus/menus-4.jpg",
+      picture: "/menus/menu-signature-coffee.jpg",
     },
     {
       title: "Dawet Latte",
       description: "Perpaduan unik espresso dan dawet yang creamy.",
-      picture: "/menus/menus-5.jpg",
+      picture: "/menus/menu-dawet-latte.jpg",
     },
   ];
 
@@ -94,7 +94,7 @@ export default function Menu() {
             <div className="relative w-full h-96 md:h-[500px] mb-2">
               <Image
                 src={item.picture}
-                alt={item.title}
+                alt={item.description}
                 fill
                 className="object-cover rounded-xl"
               />
@@ -121,7 +121,7 @@ export default function Menu() {
             <div className="relative w-full h-96 md:h-[500px] mb-2">
               <Image
                 src={item.picture}
-                alt={item.title}
+                alt={item.description}
                 fill
                 className="object-cover rounded-xl"
               />

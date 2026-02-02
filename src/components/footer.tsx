@@ -1,4 +1,4 @@
-import { Clock, Facebook, Instagram, MapPin, Phone } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import LogoMoikai from "../../public/logo-square.jpg";
@@ -88,7 +88,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="w-full m-auto" />
-      <p className="mt-6">© 2025 Moikai. Semua hak dilindungi. </p>
+      <p className="mt-6">© 2026 Moikai. Semua hak dilindungi. </p>
     </footer>
   );
 }

@@ -16,7 +16,7 @@ export default function About() {
           </h1>
           <p className="mt-10 text-sm text-justify leading-loose">
             Moikai Coffee menghadirkan suasana homey yang hangat dan
-            menenangkan. Nama 'Moikai' diambil dari kata Jepang 'Mouikkai' (once
+            menenangkan. Nama &apos;Moikai&apos; diambil dari kata Jepang &apos;Mouikkai&apos; (once
             more), sebuah filosofi untuk menciptakan pengalaman yang membuat
             rindu. Mulai dari racikan kopi hingga suasana di setiap sudutnya,
             kami pastikan Anda merasa senyaman di rumah sendiri dan selalu ingin
@@ -50,7 +50,7 @@ export default function About() {
             </h1>
             <p className="mt-10 text-justify leading-loose w-3/4">
               Moikai Coffee menghadirkan suasana homey yang hangat dan
-              menenangkan. Nama 'Moikai' diambil dari kata Jepang 'Mouikkai'
+              menenangkan. Nama &apos;Moikai&apos; diambil dari kata Jepang &apos;Mouikkai&apos;
               (once more), sebuah filosofi untuk menciptakan pengalaman yang
               membuat rindu. Mulai dari racikan kopi hingga suasana di setiap
               sudutnya, kami pastikan Anda merasa senyaman di rumah sendiri dan

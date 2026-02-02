@@ -1,4 +1,4 @@
-import { Clock, MapPin, Navigation } from "lucide-react";
+// unused lucide-react icons removed
 import Link from "next/link";
 export default function Lokasi() {
   return (

@@ -8,41 +8,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Moikai Coffee",
+  metadataBase: new URL("https://www.moikaicoffee.com"),
+  title: "Moikai Coffee | Coffee Shop Cozy di Yogyakarta",
   description:
     "Moikai Coffee - Coffee shop cozy di Yogyakarta dengan menu kopi spesial & suasana hangat. Kunjungi cabang CDT & Tamsis kami!",
-
-  // SEO
-  alternates: {
-    canonical: "https://www.moikaicoffee.com/",
-  },
-
-  openGraph: {
-    title: "Moikai Coffee",
-    description:
-      "Nikmati kopi nikmat & suasana hangat di Moikai Coffee - cabang CDT & Tamsis Yogyakarta. Signature brews & tempat cozy untuk bersantai.",
-    url: "https://www.moikaicoffee.com/",
-    siteName: "Moikai Coffee",
-    images: [
-      {
-        url: "https://www.moikaicoffee.com/front-thumb-og.jpg",
-        width: 853,
-        height: 640,
-        alt: "Moikai Coffee Yogyakarta",
-      },
-    ],
-    locale: "id_ID",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Moikai Coffee | Coffee Shop Cozy di Yogyakarta",
-    description:
-      "Moikai Coffee - tempat ngopi cozy di Yogyakarta. Signature brews & suasana hangat menanti kamu di cabang CDT & Tamsis!",
-    images: ["https://www.moikaicoffee.com/front-thumb-og.jpg"],
-  },
-
+  authors: [{ name: "Moikai Coffee" }],
+  generator: "Next.js",
+  publisher: "Moikai Coffee",
   keywords: [
     "Moikai Coffee",
     "coffee shop Jogja",
@@ -51,7 +23,40 @@ export const metadata: Metadata = {
     "espresso",
     "latte",
     "cappuccino",
+    "tempat nongkrong jogja",
+    "cafe hits jogja"
   ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Moikai Coffee | Coffee Shop Cozy di Yogyakarta",
+    description:
+      "Nikmati kopi nikmat & suasana hangat di Moikai Coffee - cabang CDT & Tamsis Yogyakarta. Signature brews & tempat cozy untuk bersantai.",
+    url: "/",
+    siteName: "Moikai Coffee",
+    locale: "id_ID",
+    type: "website",
+    images: [
+      {
+        url: "/front-thumb-og.jpg",
+        width: 853,
+        height: 640,
+        alt: "Moikai Coffee Yogyakarta",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Moikai Coffee | Coffee Shop Cozy di Yogyakarta",
+    description:
+      "Moikai Coffee - tempat ngopi cozy di Yogyakarta. Signature brews & suasana hangat menanti kamu di cabang CDT & Tamsis!",
+    images: ["/front-thumb-og.jpg"],
+    creator: "@moikaicoffee",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
